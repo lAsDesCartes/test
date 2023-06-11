@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Valise
   - Bordure
+  - Encoche
   layers:
   - Default
   - TransparentFX
