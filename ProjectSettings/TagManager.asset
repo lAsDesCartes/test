@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Valise
+  - Bordure
   layers:
   - Default
   - TransparentFX
