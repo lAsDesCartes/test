@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 84379404}
   - component: {fileID: 84379405}
+  - component: {fileID: 84379406}
   m_Layer: 0
   m_Name: Photo 4 2018 Feuille (5)
   m_TagString: Untagged
@@ -148,7 +149,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84379403}
   m_LocalRotation: {x: -0, y: -0, z: 0.007233016, w: -0.9999739}
-  m_LocalPosition: {x: 11.95, y: 3.89, z: -0.1326704}
+  m_LocalPosition: {x: 13.02, y: 5.05, z: -0.1326704}
   m_LocalScale: {x: -1.1083218, y: 0.94182295, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -207,6 +208,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &84379406
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84379403}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 2d8743e0f6631b54c9044939605f92aa, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &137263489
 GameObject:
   m_ObjectHideFlags: 0
@@ -218,6 +240,9 @@ GameObject:
   - component: {fileID: 137263492}
   - component: {fileID: 137263491}
   - component: {fileID: 137263490}
+  - component: {fileID: 137263493}
+  - component: {fileID: 137263495}
+  - component: {fileID: 137263494}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -296,10 +321,66 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1660184333}
+  - {fileID: 886705528}
+  - {fileID: 800060926}
+  - {fileID: 1291506873}
+  - {fileID: 395098514}
+  - {fileID: 1475864554}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &137263493
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137263489}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 95de58a36ba25f344b9f1901c9ae9580, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &137263494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137263489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 69b284409e486834b85a0845c0e759ee, type: 2}
+--- !u!114 &137263495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 137263489}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
 --- !u!1 &185446591
 GameObject:
   m_ObjectHideFlags: 0
@@ -310,6 +391,7 @@ GameObject:
   m_Component:
   - component: {fileID: 185446592}
   - component: {fileID: 185446593}
+  - component: {fileID: 185446594}
   m_Layer: 0
   m_Name: "Photo 4 2018 Tete M\xE8re"
   m_TagString: Untagged
@@ -325,7 +407,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 185446591}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.55, y: 1.01, z: -0.1326704}
+  m_LocalPosition: {x: 5.4, y: -0.09, z: -0.1326704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -384,6 +466,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &185446594
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185446591}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0cea660dfceb5cd449fa66c3219037b4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &232432727
 GameObject:
   m_ObjectHideFlags: 0
@@ -400,7 +503,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &232432728
 Transform:
   m_ObjectHideFlags: 0
@@ -456,6 +559,7 @@ GameObject:
   m_Component:
   - component: {fileID: 232712801}
   - component: {fileID: 232712802}
+  - component: {fileID: 232712803}
   m_Layer: 0
   m_Name: Photo 4 2018 Main Accord
   m_TagString: Untagged
@@ -530,6 +634,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &232712803
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232712800}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1c9db54b222c2804699bd20023f70e69, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &349405375
 GameObject:
   m_ObjectHideFlags: 0
@@ -646,6 +771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 353754388}
   - component: {fileID: 353754389}
+  - component: {fileID: 353754390}
   m_Layer: 0
   m_Name: Photo 4 2018 Feuille (3)
   m_TagString: Untagged
@@ -661,7 +787,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 353754387}
   m_LocalRotation: {x: -0, y: -0, z: 0.01939555, w: -0.9998119}
-  m_LocalPosition: {x: 11.06, y: 4.86, z: -0.1326704}
+  m_LocalPosition: {x: 12.45, y: 6.78, z: -0.1326704}
   m_LocalScale: {x: -1.0816693, y: 1.0393541, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -720,6 +846,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &353754390
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 353754387}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 81ba3447ab1890d44bf67021c8e7455f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &355894189
 GameObject:
   m_ObjectHideFlags: 0
@@ -730,6 +877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 355894190}
   - component: {fileID: 355894191}
+  - component: {fileID: 355894192}
   m_Layer: 0
   m_Name: Photo 4 2018 Vague (2)
   m_TagString: Untagged
@@ -804,6 +952,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &355894192
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 355894189}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 17fd26d0f3dd90f4da4ff2f90e4de70d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &395098513
 GameObject:
   m_ObjectHideFlags: 0
@@ -830,11 +999,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395098513}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0411298, y: -0.64387465, z: -0.053991318}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1660184333}
+  m_Father: {fileID: 137263492}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &395098515
@@ -911,6 +1080,7 @@ GameObject:
   m_Component:
   - component: {fileID: 403522844}
   - component: {fileID: 403522845}
+  - component: {fileID: 403522846}
   m_Layer: 0
   m_Name: Photo 4 2018 Tete Fille
   m_TagString: Untagged
@@ -925,14 +1095,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 403522843}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.36, y: -2.55, z: -0.1326704}
+  m_LocalRotation: {x: -0, y: -0, z: 0.011168597, w: 0.99993765}
+  m_LocalPosition: {x: -0.37000012, y: -2.81, z: -0.1326704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 232432728}
   m_RootOrder: -1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 1.28}
 --- !u!212 &403522845
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -985,6 +1155,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &403522846
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403522843}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 540bfb01e7759d546b135bbf20934de1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &463219418
 GameObject:
   m_ObjectHideFlags: 0
@@ -1269,6 +1460,7 @@ GameObject:
   m_Component:
   - component: {fileID: 547204306}
   - component: {fileID: 547204307}
+  - component: {fileID: 547204308}
   m_Layer: 0
   m_Name: Photo 4 2018 Feuille
   m_TagString: Untagged
@@ -1284,7 +1476,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 547204305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.06, y: 3.86, z: -0.1326704}
+  m_LocalPosition: {x: -12.22, y: 5.5, z: -0.1326704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1343,6 +1535,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &547204308
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 547204305}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 1f4f8bfa14a2d574aa04eb54e4da57e9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &739938545
 GameObject:
   m_ObjectHideFlags: 0
@@ -1466,11 +1679,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 800060925}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0411298, y: -0.64387465, z: -0.053991318}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1660184333}
+  m_Father: {fileID: 137263492}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &800060927
@@ -1563,11 +1776,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 886705527}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0411298, y: -0.64387465, z: -0.053991318}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1660184333}
+  m_Father: {fileID: 137263492}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &886705529
@@ -1750,6 +1963,7 @@ GameObject:
   m_Component:
   - component: {fileID: 942318806}
   - component: {fileID: 942318807}
+  - component: {fileID: 942318808}
   m_Layer: 0
   m_Name: Photo 4 2018 Vague (3)
   m_TagString: Untagged
@@ -1765,7 +1979,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 942318805}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.03, y: -3.63, z: -0.1326704}
+  m_LocalPosition: {x: -0.03, y: -3.63, z: -0.1326704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1824,6 +2038,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &942318808
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 942318805}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cb05828a8552326408b893773782c6c9, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1010884856
 GameObject:
   m_ObjectHideFlags: 0
@@ -2064,11 +2299,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1291506872}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0411298, y: -0.64387465, z: -0.053991318}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1660184333}
+  m_Father: {fileID: 137263492}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1291506874
@@ -2313,11 +2548,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1475864553}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0411298, y: -0.64387465, z: -0.053991318}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1660184333}
+  m_Father: {fileID: 137263492}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1475864555
@@ -2500,6 +2735,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1514074605}
   - component: {fileID: 1514074606}
+  - component: {fileID: 1514074607}
   m_Layer: 0
   m_Name: Photo 4 2018 Feuille (1)
   m_TagString: Untagged
@@ -2515,7 +2751,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1514074604}
   m_LocalRotation: {x: -0, y: -0, z: 0.118210375, w: 0.9929886}
-  m_LocalPosition: {x: -9.89, y: 4.05, z: -0.1326704}
+  m_LocalPosition: {x: -11.69, y: 5.37, z: -0.1326704}
   m_LocalScale: {x: 1.1976, y: 1.1632, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2574,6 +2810,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1514074607
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1514074604}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0c9ee5a2a3213894db0fea987a48982e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1532770917
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,22 +3001,17 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1660184332}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.0411298, y: 0.64387465, z: 10.053991}
+  m_LocalPosition: {x: 2.0411298, y: 0.64387465, z: 0.053991318}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 739938546}
-  - {fileID: 886705528}
   - {fileID: 1717626363}
-  - {fileID: 800060926}
   - {fileID: 1457969003}
-  - {fileID: 1291506873}
   - {fileID: 1244818515}
-  - {fileID: 395098514}
   - {fileID: 232432728}
-  - {fileID: 1475864554}
-  m_Father: {fileID: 137263492}
-  m_RootOrder: -1
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1660184334
 MonoBehaviour:
@@ -2802,6 +3054,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1673006416}
   - component: {fileID: 1673006417}
+  - component: {fileID: 1673006418}
   m_Layer: 0
   m_Name: Photo 4 2018 Feuille (2)
   m_TagString: Untagged
@@ -2817,7 +3070,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1673006415}
   m_LocalRotation: {x: -0, y: -0, z: 0.13110581, w: -0.9913684}
-  m_LocalPosition: {x: -11.71, y: 3.07, z: -0.1326704}
+  m_LocalPosition: {x: -12.24, y: 5.01, z: -0.1326704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2876,6 +3129,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1673006418
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1673006415}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 9025798b86ab1444e8fc7b24b11918de, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1717626362
 GameObject:
   m_ObjectHideFlags: 0
@@ -3016,6 +3290,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1868736374}
   - component: {fileID: 1868736375}
+  - component: {fileID: 1868736376}
   m_Layer: 0
   m_Name: Photo 4 2018 Feuille (4)
   m_TagString: Untagged
@@ -3031,7 +3306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1868736373}
   m_LocalRotation: {x: -0, y: -0, z: 0.0052890875, w: -0.99998605}
-  m_LocalPosition: {x: 9.5061, y: 4.9639, z: -0.1326704}
+  m_LocalPosition: {x: 11.56, y: 7.13, z: -0.1326704}
   m_LocalScale: {x: -1.3958352, y: 1.2517619, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3090,6 +3365,27 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &1868736376
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1868736373}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: ee1ea218e0a3822428af9cc5d599672c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1996302704
 GameObject:
   m_ObjectHideFlags: 0
@@ -3184,6 +3480,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2010132856}
   - component: {fileID: 2010132857}
+  - component: {fileID: 2010132858}
   m_Layer: 0
   m_Name: Photo 4 2018 Main Droite
   m_TagString: Untagged
@@ -3199,7 +3496,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2010132855}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.52, y: -3.601, z: -0.1326704}
+  m_LocalPosition: {x: -2.118, y: -3.105, z: -0.1326704}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3258,3 +3555,24 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!95 &2010132858
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010132855}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 86ec7a2cc868e0e46a638d17286e096f, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
