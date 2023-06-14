@@ -8,6 +8,7 @@ TagManager:
   - Bordure
   - Encoche
   - Voiture
+  - Emplacement
   layers:
   - Default
   - TransparentFX
