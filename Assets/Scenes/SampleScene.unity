@@ -364,6 +364,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Pelle
       objectReference: {fileID: 0}
+    - target: {fileID: 2009629671062564766, guid: 9ff7b63c28f314f98998bbaf06e97900, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009629671062564766, guid: 9ff7b63c28f314f98998bbaf06e97900, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2009629671062564766, guid: 9ff7b63c28f314f98998bbaf06e97900, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3970771128359820781, guid: 9ff7b63c28f314f98998bbaf06e97900, type: 3}
       propertyPath: m_RootOrder
       value: -1
