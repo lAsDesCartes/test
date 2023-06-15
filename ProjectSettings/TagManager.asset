@@ -9,6 +9,7 @@ TagManager:
   - Encoche
   - Voiture
   - Emplacement
+  - Cursor
   layers:
   - Default
   - TransparentFX
