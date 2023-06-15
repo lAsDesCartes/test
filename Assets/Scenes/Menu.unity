@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 271422716}
   - component: {fileID: 271422717}
   - component: {fileID: 271422718}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Emplacement 2
   m_TagString: Emplacement
   m_Icon: {fileID: 0}
@@ -1636,7 +1636,7 @@ GameObject:
   - component: {fileID: 892396889}
   - component: {fileID: 892396890}
   - component: {fileID: 892396891}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Emplacement 1
   m_TagString: Emplacement
   m_Icon: {fileID: 0}
@@ -1978,7 +1978,7 @@ GameObject:
   - component: {fileID: 1451280688}
   - component: {fileID: 1451280689}
   - component: {fileID: 1451280690}
-  m_Layer: 0
+  m_Layer: 2
   m_Name: Emplacement 3
   m_TagString: Emplacement
   m_Icon: {fileID: 0}
