@@ -10,6 +10,7 @@ TagManager:
   - Voiture
   - Emplacement
   - Cursor
+  - Sound
   layers:
   - Default
   - TransparentFX
