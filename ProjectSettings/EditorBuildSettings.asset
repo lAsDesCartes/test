@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Appareil photo.unity
     guid: 681767839ccefcd49b2192bbadb65e54
+  - enabled: 1
+    path: Assets/Scenes/Transition.unity
+    guid: 7d92cc1b3619d4a8eb668fc102d51322
   m_configObjects: {}
