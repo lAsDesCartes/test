@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/ValiseFille.unity
     guid: 99489579d43774efb94e56e610822c1e
   - enabled: 1
+    path: Assets/Scenes/ValiseGuitare.unity
+    guid: 8e0b5649d9eb0403685e942ced264322
+  - enabled: 1
     path: Assets/Scenes/ValiseMere.unity
     guid: 18f95c5ee60204e0dadbbe6ff6ea1461
   - enabled: 1
